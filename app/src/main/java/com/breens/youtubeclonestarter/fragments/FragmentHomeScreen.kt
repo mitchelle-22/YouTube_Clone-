@@ -1,4 +1,4 @@
-package com.breens.youtubeclone.fragments
+package com.breens.youtubeclonestarter.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

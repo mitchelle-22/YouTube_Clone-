@@ -1,4 +1,4 @@
-package com.breens.youtubeclone
+package com.breens.youtubeclonestarter
 
 import org.junit.Test
 
