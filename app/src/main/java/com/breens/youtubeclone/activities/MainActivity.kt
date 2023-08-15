@@ -1,12 +1,8 @@
-package com.breens.youtubeclonestarter.activities
+package com.breens.youtubeclone.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import androidx.navigation.fragment.NavHostFragment
-import com.breens.youtubeclonestarter.R
-import com.breens.youtubeclonestarter.databinding.ActivityMainBinding
-import dagger.hilt.android.AndroidEntryPoint
+import com.breens.youtubeclone.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

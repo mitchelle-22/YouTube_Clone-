@@ -1,4 +1,4 @@
-package com.breens.youtubeclonestarter.fragments
+package com.breens.youtubeclone.fragments
 
 import android.os.Bundle
 import android.os.Handler
@@ -9,9 +9,8 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.breens.youtubeclonestarter.R
-import com.breens.youtubeclonestarter.databinding.FragmentSplashScreenBinding
-import dagger.hilt.android.AndroidEntryPoint
+import com.breens.youtubeclone.R
+import com.breens.youtubeclone.databinding.FragmentSplashScreenBinding
 
 class FragmentSplashScreen: Fragment(R.layout.fragment_splash_screen) {
 

@@ -1,4 +1,4 @@
-package com.breens.youtubeclonestarter
+package com.breens.youtubeclone
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
