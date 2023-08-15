@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.breens.youtubeclone.R
-import com.breens.youtubeclone.databinding.FragmentHomeScreenBinding
+import com.breens.youtubeclonestarter.R
+import com.breens.youtubeclonestarter.databinding.FragmentHomeScreenBinding
 
 class FragmentHomeScreen : Fragment(R.layout.fragment_home_screen) {
     private var _binding: FragmentHomeScreenBinding? = null

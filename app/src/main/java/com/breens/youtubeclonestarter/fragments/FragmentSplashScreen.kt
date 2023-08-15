@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.breens.youtubeclone.R
-import com.breens.youtubeclone.databinding.FragmentSplashScreenBinding
+import com.breens.youtubeclonestarter.R
+import com.breens.youtubeclonestarter.databinding.FragmentSplashScreenBinding
 
 class FragmentSplashScreen: Fragment(R.layout.fragment_splash_screen) {
 
@@ -24,7 +24,7 @@ class FragmentSplashScreen: Fragment(R.layout.fragment_splash_screen) {
     ): View {
         _binding = FragmentSplashScreenBinding.inflate(inflater, container, false)
         hideActionBar()
-        navigateToHomeScreen()
+        navigateToHomeScreen() //navigates to home screen after the splash screen
         return binding.root
     }
 
