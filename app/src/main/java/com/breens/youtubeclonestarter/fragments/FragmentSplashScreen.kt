@@ -31,7 +31,7 @@ class FragmentSplashScreen: Fragment(R.layout.fragment_splash_screen) {
     private fun navigateToHomeScreen() {
         Handler(Looper.getMainLooper()).postDelayed({
             findNavController().navigate(R.id.action_splashScreen_to_fragmentHomeScreen)
-        }, 3000)
+        }, 3000)//This tell the splash screen to navigate to the home screen after 3secs
     }
 
     private fun hideActionBar() {
