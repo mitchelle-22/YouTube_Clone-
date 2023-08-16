@@ -1,4 +1,4 @@
-package com.breens.youtubeclonestarter.fragments
+package com.breens.youtubeclonestarter.ui.splash
 
 import android.os.Bundle
 import android.os.Handler

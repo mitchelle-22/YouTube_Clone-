@@ -1,4 +1,4 @@
-package com.breens.youtubeclonestarter.activities
+package com.breens.youtubeclonestarter.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
