@@ -1,4 +1,4 @@
-package com.breens.youtubeclonestarter.ui.util
+package com.breens.youtubeclonestarter.utils
 
 class Constant {
     companion object{
