@@ -1,5 +1,6 @@
 package com.breens.youtubeclonestarter.di
 
+import com.breens.youtubeclonestarter.data.api.api.YoutubeApi
 import com.breens.youtubeclonestarter.utils.Constant.Companion.BASE_URL
 import dagger.Module
 import dagger.Provides
@@ -23,6 +24,12 @@ class NetworkModule {
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .client(loggingInterceptor())
+            .build()
+
+    @Provides
+    @Singleton
+    fun provideYoutubeApi(retrofit: Retrofit): YoutubeApi =
+        retrofit.create(YoutubeApi::class.java)
 
     private fun loggingInterceptor(): OkHttpClient{
         val loggingInterceptor = HttpLoggingInterceptor()
